@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTaak1_KLEUR01", "GitTaak1_KLEUR01\GitTaak1_KLEUR01.csproj", "{DFE0E2EF-CFB7-48F7-8E83-7A4EED60EBCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE0E2EF-CFB7-48F7-8E83-7A4EED60EBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE0E2EF-CFB7-48F7-8E83-7A4EED60EBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE0E2EF-CFB7-48F7-8E83-7A4EED60EBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE0E2EF-CFB7-48F7-8E83-7A4EED60EBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4AD8FD1-B691-4449-AB50-97254C2EE7B2}
+	EndGlobalSection
+EndGlobal
