@@ -24,5 +24,49 @@ namespace GitTaak1_KLEUR_05
         {
             InitializeComponent();
         }
+
+        private void HoverEffect_MouseEnter(object sender, MouseEventArgs e)
+        {
+            // achtergrond blauw als muis niet op achtergond is
+            Background = new SolidColorBrush(Colors.Blue);
+        }
+        // achtergrond terug zetten als muis weg is
+        private void HoverEffect_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.LightGray);
+        }
+        //---------------------------------
+
+
+
+
+
+        private void ColorImage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Image clickedImage = sender as Image;
+
+            if (clickedImage == ImageGroen)
+            {
+                KleurCodeTextBox.Text = "#008000"; 
+                InformatieTextBox.Text = "Groen is de kleur van genezing";
+            }
+            else if (clickedImage == ImageRood)
+            {
+                KleurCodeTextBox.Text = "#FF0000";
+                InformatieTextBox.Text = "Rood is de kleur van warmte";
+            }
+            else if (clickedImage == ImageGeel)
+            {
+                KleurCodeTextBox.Text = "#FFFF00";
+                InformatieTextBox.Text = "Geel is de kleur van levenslust";
+            }
+            else if (clickedImage == ImageBlauw)
+            {
+                KleurCodeTextBox.Text = "#0000FF";
+                InformatieTextBox.Text = "Blauw is de kleur van intelligentie";
+            }
+        }
+
     }
 }
+

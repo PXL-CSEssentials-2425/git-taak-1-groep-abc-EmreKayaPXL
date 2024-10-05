@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -20,9 +21,15 @@ namespace GitTaak1_KLEUR_03
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private void HoverEffect_MouseEnter(object sender, MouseEventArgs e)
         {
-            InitializeComponent();
+            // achtergrond blauw als muis niet op achtergond is
+            Background = new SolidColorBrush(Colors.LightBlue);
+        }
+            // achtergrond terug zetten als muis weg is
+        private void HoverEffect_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.LightGray);
         }
     }
 }

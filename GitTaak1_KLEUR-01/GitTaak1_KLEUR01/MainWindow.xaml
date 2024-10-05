@@ -5,11 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GitTaak1_KLEUR01"
         mc:Ignorable="d"
-        Title="Kleurenpsychologie" Height="450" Width="800">
+        Title="Kleurenpsychologie" Height="450" Width="800"
+        Background="LightGray">
     <Grid>
-        <Border Background="LightGray">
-            <TextBlock HorizontalAlignment="Left" Margin="81,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="nl-nl" Text="Kleurenpsychologie"/></TextBlock>
-        </Border>
+
+        <TextBlock Text="Kleurenpsychologie" HorizontalAlignment="Left" Margin="81,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
     </Grid>
-    
 </Window>
