@@ -43,19 +43,27 @@ namespace GitTaak1_KLEUR01
 
             if (clickedImage == ImageGroen)
             {
-                KleurCodeTextBox.Text = "#008000"; // Groen
+                KleurCodeTextBox.Text = "#008000";
+                InformatieTextBox.Text = "Groen is de kleur van genezing";
+
             }
             else if (clickedImage == ImageRood)
             {
-                KleurCodeTextBox.Text = "#FF0000"; // Rood
+                KleurCodeTextBox.Text = "#FF0000";
+                InformatieTextBox.Text = "Rood is de kleur van warmte";
+
             }
             else if (clickedImage == ImageGeel)
             {
-                KleurCodeTextBox.Text = "#FFFF00"; // Geel
+                KleurCodeTextBox.Text = "#FFFF00";
+                InformatieTextBox.Text = "Geel is de kleur van levenslust";
+
             }
             else if (clickedImage == ImageBlauw)
             {
-                KleurCodeTextBox.Text = "#0000FF"; // Blauw
+                KleurCodeTextBox.Text = "#0000FF";
+                InformatieTextBox.Text = "Blauw is de kleur van intelligentie";
+
             }
         }
     }
