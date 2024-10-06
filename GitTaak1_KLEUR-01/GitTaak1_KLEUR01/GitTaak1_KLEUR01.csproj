@@ -97,5 +97,17 @@
   <ItemGroup>
     <Resource Include="PXL.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Rood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Blauw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Geel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Groen.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

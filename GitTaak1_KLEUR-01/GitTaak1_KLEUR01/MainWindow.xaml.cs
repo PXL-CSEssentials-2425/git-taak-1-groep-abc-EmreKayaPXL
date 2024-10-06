@@ -34,6 +34,29 @@ namespace GitTaak1_KLEUR01
         {
             Background = new SolidColorBrush(Colors.LightGray);
         }
-        
+
+
+
+        private void ColorImage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Image clickedImage = sender as Image;
+
+            if (clickedImage == ImageGroen)
+            {
+                KleurCodeTextBox.Text = "#008000"; // Groen
+            }
+            else if (clickedImage == ImageRood)
+            {
+                KleurCodeTextBox.Text = "#FF0000"; // Rood
+            }
+            else if (clickedImage == ImageGeel)
+            {
+                KleurCodeTextBox.Text = "#FFFF00"; // Geel
+            }
+            else if (clickedImage == ImageBlauw)
+            {
+                KleurCodeTextBox.Text = "#0000FF"; // Blauw
+            }
+        }
     }
 }
