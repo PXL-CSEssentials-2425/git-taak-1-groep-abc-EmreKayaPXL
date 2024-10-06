@@ -24,5 +24,16 @@ namespace GitTaak1_KLEUR01
         {
             InitializeComponent();
         }
+        private void HoverEffect_MouseEnter(object sender, MouseEventArgs e)
+        {
+        // achtergrond blauw als muis niet op achtergond is
+            Background = new SolidColorBrush(Colors.LightBlue);
+        }
+        // achtergrond terug zetten als muis weg is
+        private void HoverEffect_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.LightGray);
+        }
+        
     }
 }
