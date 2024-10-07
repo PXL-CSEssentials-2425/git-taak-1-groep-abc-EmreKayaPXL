@@ -15,25 +15,47 @@ using System.Windows.Shapes;
 
 namespace GitTaak1_KLEUR01
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
         }
-        private void HoverEffect_MouseEnter(object sender, MouseEventArgs e)
+
+
+
+
+        private void RedHoverEffect_MouseEnter(object sender, MouseEventArgs e)
         {
-        // achtergrond blauw als muis niet op achtergond is
-            Background = new SolidColorBrush(Colors.LightBlue);
+            Background = new SolidColorBrush(Colors.Red);
         }
+
+        private void BlueHoverEffect_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.Blue);
+        }
+
+        private void YellowHoverEffect_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.Yellow);
+        }
+
+        private void GreenHoverEffect_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.Green);
+        }
+
+
+
+
+
         // achtergrond terug zetten als muis weg is
         private void HoverEffect_MouseLeave(object sender, MouseEventArgs e)
         {
             Background = new SolidColorBrush(Colors.LightGray);
         }
+
+
 
 
 

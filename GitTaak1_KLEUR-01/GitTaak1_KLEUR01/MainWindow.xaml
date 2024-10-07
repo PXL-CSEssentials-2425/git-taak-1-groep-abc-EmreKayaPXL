@@ -11,14 +11,15 @@
 
         <TextBlock Text="Kleurenpsychologie" HorizontalAlignment="Left" Margin="81,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Image Source="/PXL.png" Margin="527,10,-9,296" />
-        <Image Name="ImageBlauw" MouseDown="ColorImage_MouseDown" Source="/Blauw.png" Margin="238,230,471,81" />
-        <Image Name="ImageRood" MouseDown="ColorImage_MouseDown" Source="/Rood.png" Margin="119,150,590,163" />
-        <Image Name="ImageGroen" MouseDown="ColorImage_MouseDown" Source="/Groen.png" Margin="119,230,590,81" />
-        <Image Name="ImageGeel" MouseDown="ColorImage_MouseDown" Source="/Geel.png" Margin="238,150,471,163" />
+        <Image Name="ImageBlauw" Tag="#0000FF" MouseDown="ColorImage_MouseDown" MouseEnter="BlueHoverEffect_MouseEnter" Source="/Blauw.png" Margin="238,230,471,81" MouseLeave="HoverEffect_MouseLeave" />
+        <Image Name="ImageRood" Tag="FF0000" MouseDown="ColorImage_MouseDown" MouseEnter="RedHoverEffect_MouseEnter" Source="/Rood.png" Margin="119,150,590,163" MouseLeave="HoverEffect_MouseLeave" />
+        <Image Name="ImageGroen" Tag="#008000" MouseDown="ColorImage_MouseDown" MouseEnter="GreenHoverEffect_MouseEnter" Source="/Groen.png" Margin="119,230,590,81" MouseLeave="HoverEffect_MouseLeave" />
+        <Image Name="ImageGeel" Tag="#FFFF00" MouseDown="ColorImage_MouseDown" MouseEnter="YellowHoverEffect_MouseEnter" Source="/Geel.png" Margin="238,150,471,163" MouseLeave="HoverEffect_MouseLeave" />
         <Label Content="Kleurcode:" HorizontalAlignment="Left" Margin="53,342,0,0" VerticalAlignment="Top"/>
         <TextBox Name="KleurCodeTextBox" HorizontalAlignment="Left" Margin="119,346,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="210"/>
         <TextBox Name="InformatieTextBox" HorizontalAlignment="Left" Margin="119,369,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="210"/>
         <Label Content="Informatie:" HorizontalAlignment="Left" Margin="51,365,0,0" VerticalAlignment="Top"/>
 
     </Grid>
+    
 </Window>
